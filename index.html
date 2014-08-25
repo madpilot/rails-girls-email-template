@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />	
+		<title>Newsletter template</title>
+		<!--general stylesheet-->
+		<style type="text/css">
+			p { padding: 0; margin: 0; }
+			h1, h2, h3, p, li { font-family: Helvetica Neue, Helvetica, Arial, sans-serif; }
+			td { vertical-align:top;}
+			ul, ol { margin: 0; padding: 0;}
+			.heading {
+				border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				-khtml-border-radius: 3px;
+				-icab-border-radius: 3px;
+			}
+			.content-items h2{ margin: 0; padding: 0; font-size: 23px; font-weight: normal; font-weight: 200; color: #390c00 !important; text-align: left; line-height: 34px; }
+			.content-items p { margin: 0 0 15px; padding: 0; font-size: 15px; font-weight: normal; color: #390c00; line-height: 23px; text-align: justify;}
+			.content-items a,
+			a { color:#dd390d; font-weight: bold;text-decoration: none;}
+			.intro p {font-size: 11px; font-weight: bold; color: #8a8a8a; text-align: center;}
+		</style>
+	</head>
+	<body marginheight="0" topmargin="0" marginwidth="0" leftmargin="0" background="" style="margin: 0px; background-color: #ffffff;" bgcolor="#ffffff">
+		<table cellspacing="0" border="0" cellpadding="0" width="100%">
+			<tbody>
+				<tr valign="top">
+					<td><!--container-->
+						<table cellspacing="0" cellpadding="0" border="0" align="center" width="750" bgcolor="#ffffff">
+							<tbody>
+								<tr><!--content-->
+									<td valign="middle" bgcolor="#d3360b" height="30" style="vertical-align: middle;">
+										<p style="font-size: 11px; font-weight: bold; color: #ffffff; text-align: center;">
+                      <singleline label="Title">You are receiving this newsletter because you signed up at <a href="http://railsgirls.com/melbourne" style="color: #fff">railsgirls.com/melbourne</a>.</singleline> You can <webversion style="color: #ffffff; text-decoration: none;">view it in your web browser</webversion>.
+                    </p>
+									</td>
+								</tr>
+                <tr>
+                  <td valign="middle" bgcolor="#d3360b" height="86" style="vertical-align: middle" align="center">
+                    <table cellspacing="0" border="0" cellpadding="0" width="700">
+											<tbody>
+												<tr>
+													<td colspan="2" valign="top" height="37" style="height: 37px;">&nbsp;</td>
+												</tr>
+												<tr>
+													<td colspan="2" valign="top" colspan="2" style="text-align: left;">
+														<h1 style="margin: 0; padding: 0; font-size: 22px; color: #ffffff; font-weight: bold;"><img src="images/railsgirls-logo.png" alt="Rails Girls"></h1>
+														<h2 class="date" style="margin: 0; padding: 0; font-size: 14px; font-weight: bold; color: #ffffff;">
+															<currentmonthname> <currentday>
+                            </h2>
+													</td>
+												</tr>
+												<tr>
+													<td colspan="2" valign="top" height="34" style="height: 34px;">&nbsp;</td>
+												</tr>
+	                    </tbody>
+                    </table>
+                  </td>
+                </tr>
+								<tr>
+									<td valign="top" bgcolor="#ffffff" align="center">
+										<table cellspacing="0" border="0" cellpadding="0" width="100%">
+											<tbody>
+												<tr>
+													<td valign="top" height="33" style="height: 33px;">&nbsp;</td>
+												</tr>
+												<tr>
+													<td valign="top" width="100%">
+														<repeater>
+														<table cellspacing="0" border="0" cellpadding="0" width="100%" class="content-items">
+															<tr>
+																<td valign="middle" height="37" style="height: 37px; border-top-color: #dd390d; border-top-width: 4px; border-top-style: solid; vertical-align: middle; padding-top: 6px;">
+																	<h2>
+																		<singleline label="Title">Enter Article Title Here</singleline>
+																	</h2>
+																</td>
+															</tr>
+															<tr>
+																<td valign="top" style="padding: 15px 0 0">
+																	<img editable="true" label="Image" width="318" style="margin: 0 15px 15px;" align="right">
+																	<multiline label="Description"><p>Enter article content here</p></multiline>
+																	
+																</td>
+															</tr>
+															<tr>
+																<td valign="top" height="30" style="height: 30px;">&nbsp;</td>
+															</tr>
+														</table>
+														</repeater>
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" height="40" bgcolor="#ffffff" style="height: 40px;">&nbsp;</td>
+												</tr>
+												<tr>
+													<td valign="middle" height="86" style="height: 86px; vertical-align: middle; background-color: #F4F4F4; color: #666;">
+														<p style="font-size: 11px; font-weight: bold; color: #8a8a8a; text-align: center;">
+															Don't want to receive these newsletters anymore? Manage your <preferences style="color: #dd390d; text-decoration: none;">email preferences here</preferences>, or <unsubscribe style="color: #dd390d; text-decoration: none;">unsubscribe</unsubscribe>. 
+														</p>
+													</td>
+												</tr>
+											</tbody>
+										</table>
+									</td>
+									<!--/content-->
+								</tr>
+							</tbody>
+						</table><!--/container-->
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
